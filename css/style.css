@@ -34,11 +34,11 @@ img{
     background-color: #b4d0e7;
 }
 .container-big{
-    max-width: 1080px;
+    max-width: 61vw;
     margin: auto;
 }
 .container-small{
-    max-width: 800px;
+    max-width: 52vw;
     margin: auto;
 }
 .column-small{
@@ -60,21 +60,26 @@ input {
   }
   input:checked {
     border: 6px solid #0061ff;
-
   }
+  .gray{
+    color: gray;
+}
+.blue{
+    color: #0061ff;
+}
 /* BOTTONI */
 .btn-header{
     background-color: #0061ff;
     color: white;
     padding: 5px 10px;
     border: 1px solid #0061ff ;
-    font-size: 14px;
+    font-size: 18px;
 }
 .btn-blue{
     background-color: #0061ff;
     color: white;
-    font-size: 14px;
-    padding: 5px 10px;
+    font-size: 18px;
+    padding: 10px 10px;
     border: 1px solid #0061ff;
 }
 /* HEADER */
@@ -83,7 +88,7 @@ header .row{
     align-items: center;
 }
 .logo{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 header a{
     color: black;
@@ -95,15 +100,16 @@ header{
     align-items: center;
 }
 header ul li:not(:last-child){
-    margin-right: 20px;
+    margin-right: 40px;
 }
 /* MAIN */
 
 /* HERO */
 .container-big h1{
-    font-size: 65px;
+    font-size: 80px;
     padding-top: 80px;
     text-align: left;
+    font-weight: 700;
 }
 .column-small button{
     margin: 30px 0;
@@ -116,6 +122,12 @@ header ul li:not(:last-child){
 .hero .column-big,.column-small{
     position: relative;
     top: 73px;
+}
+.column-small .fa-arrow-down{
+    margin-top: 110px;
+}
+.p-hero{
+    font-size: 18px;
 }
 /* /HERO */
 /* BUSINESS */
@@ -133,9 +145,52 @@ h2:first-child{
 }
 /* /BUSINESS */
 /* PIANI TARIFFARI */
-.row .rates{
-    width: calc(100% / 3);
-    border: 1px solid lightgray;
+.prices{
     justify-content: space-between;
+}
+.rates{
+    width: calc(100% / 3 - 30px);
+    border: 1px solid lightgray;
+}
+.rates .tag{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgray;
+}
+.tag i{
+    margin-right: 5px;
+}
+.rates .content{
+    padding: 30px;
+}
+.rates .content > *:not(:last-child){
+    margin-bottom: 50px;
+}
+.content a{
+    text-decoration: underline;
+}
+.header-content > *:not(:last-child){
+    margin-bottom: 10px;
+}
+.content ul li{
+    display: flex;
+}
+.content ul li i{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.content ul li:not(:last-child){
+    margin-bottom: 30px;
+}
+.content hr{
+    width: 50px;
+    border: 1px solid lightgray;
+}
+.footer-content h4{
+    margin-bottom: 30px;
+}
+.content button{
+    width: 100%;
+    padding: 10px 0;
 }
 /* FOOTER */
