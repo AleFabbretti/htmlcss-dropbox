@@ -26,6 +26,17 @@ header{
 img{
     max-width: 100%;
 }
+.hero{
+    background-color: #b4d0e7;
+}
+.container-big{
+    max-width: 1000px;
+    margin: auto;
+}
+.container-small{
+    max-width: 800px;
+    margin: auto;
+}
 /* BOTTONI */
 .btn-header{
     background-color: #0061ff;
@@ -52,5 +63,12 @@ header{
     padding-top: 18px;
 }
 /* MAIN */
-
+.container-big h1{
+    font-size: 65px;
+    padding-top: 100px;
+    text-align: left;
+}
+.hero .row{
+    padding-top: 70px;
+}
 /* FOOTER */
