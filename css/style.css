@@ -12,17 +12,44 @@ body{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+
 /* COMMON */
 .row{
     display: flex;
 }
-
+header{
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+/* BOTTONI */
+.btn-header{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #0061ff ;
+    font-size: 14px;
+    margin-left: 10px;
+}
 /* HEADER */
 header li{
     padding: 20px;
 }
 header .row{
     justify-content: space-between;
+}
+header a{
+    color: black;
+}
+header{
+    background-color: white;
+}
+.sign-in{
+    padding-top: 18px;
 }
 /* MAIN */
 
