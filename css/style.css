@@ -10,6 +10,7 @@ button:hover{
 /* TYPOGRAPHY */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 ul{
     list-style: none;
@@ -24,6 +25,7 @@ a{
 }
 header{
     color: black;
+    padding: 20px;
 }
 img{
     max-width: 100%;
@@ -32,7 +34,7 @@ img{
     background-color: #b4d0e7;
 }
 .container-big{
-    max-width: 1000px;
+    max-width: 1080px;
     margin: auto;
 }
 .container-small{
@@ -58,7 +60,7 @@ input {
   }
   input:checked {
     border: 6px solid #0061ff;
-    
+
   }
 /* BOTTONI */
 .btn-header{
@@ -67,7 +69,6 @@ input {
     padding: 5px 10px;
     border: 1px solid #0061ff ;
     font-size: 14px;
-    margin-left: 10px;
 }
 .btn-blue{
     background-color: #0061ff;
@@ -77,11 +78,12 @@ input {
     border: 1px solid #0061ff;
 }
 /* HEADER */
-header li{
-    padding: 20px;
-}
 header .row{
     justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-right: 20px;
 }
 header a{
     color: black;
@@ -89,8 +91,11 @@ header a{
 header{
     background-color: white;
 }
-.sign-in{
-    padding-top: 18px;
+.header-col{
+    align-items: center;
+}
+header ul li:not(:last-child){
+    margin-right: 20px;
 }
 /* MAIN */
 
@@ -125,5 +130,12 @@ h2:first-child{
 }
 .business label{
     margin-right: 30px;
+}
+/* /BUSINESS */
+/* PIANI TARIFFARI */
+.row .rates{
+    width: calc(100% / 3);
+    border: 1px solid lightgray;
+    justify-content: space-between;
 }
 /* FOOTER */
