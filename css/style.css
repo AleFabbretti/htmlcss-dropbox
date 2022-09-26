@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+button:hover{
+    cursor: pointer;
+}
 /* TYPOGRAPHY */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -82,15 +84,16 @@ header{
     padding-top: 100px;
     text-align: left;
 }
-.hero .row{
-    padding-top: 70px;
-}
 .column-small button{
     margin: 30px 0;
 }
 .column-small i{
     display: block;
-    margin-top: 80px;
     font-size: 40px;
+    margin-top: 10px;
+}
+.hero .column-big,.column-small{
+    position: relative;
+    top: 73px;
 }
 /* FOOTER */
