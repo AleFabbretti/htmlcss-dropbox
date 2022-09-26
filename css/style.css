@@ -37,6 +37,13 @@ img{
     max-width: 800px;
     margin: auto;
 }
+.column-small{
+    max-width: 30%;
+}
+.column-big{
+    max-width: 70%;
+
+}
 /* BOTTONI */
 .btn-header{
     background-color: #0061ff;
@@ -45,6 +52,13 @@ img{
     border: 1px solid #0061ff ;
     font-size: 14px;
     margin-left: 10px;
+}
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #0061ff;
 }
 /* HEADER */
 header li{
@@ -70,5 +84,13 @@ header{
 }
 .hero .row{
     padding-top: 70px;
+}
+.column-small button{
+    margin: 30px 0;
+}
+.column-small i{
+    display: block;
+    margin-top: 80px;
+    font-size: 40px;
 }
 /* FOOTER */
