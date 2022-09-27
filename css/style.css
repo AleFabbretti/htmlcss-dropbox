@@ -302,8 +302,9 @@ ul div{
     display: flex;
     flex-wrap: wrap;
 }
-.column-left , .column-right{
+.column-square{
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
