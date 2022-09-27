@@ -18,7 +18,9 @@ ul{
 a{
     text-decoration: none;
 }
-
+h3{
+    font-size: 20px;
+}
 /* COMMON */
 .row{
     display: flex;
@@ -26,6 +28,11 @@ a{
 header{
     color: black;
     padding: 20px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 img{
     max-width: 100%;
@@ -58,10 +65,10 @@ input {
     position: relative;
     top: 5px;
   }
-  input:checked {
+input:checked {
     border: 6px solid #0061ff;
   }
-  .gray{
+.gray{
     color: gray;
 }
 .blue{
@@ -73,14 +80,21 @@ input {
     color: white;
     padding: 5px 10px;
     border: 1px solid #0061ff ;
-    font-size: 18px;
+    font-size: 14px;
 }
 .btn-blue{
     background-color: #0061ff;
     color: white;
-    font-size: 18px;
+    font-size: 12px;
     padding: 10px 10px;
     border: 1px solid #0061ff;
+}
+.btn-white{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding:16px 16px;
+    border: 1px solid black;
 }
 /* HEADER */
 header .row{
@@ -92,6 +106,7 @@ header .row{
 }
 header a{
     color: black;
+    font-size: small;
 }
 header{
     background-color: white;
@@ -102,17 +117,21 @@ header{
 header ul li:not(:last-child){
     margin-right: 40px;
 }
+.team .content{
+    display: flex;
+}
 /* MAIN */
 
 /* HERO */
 .container-big h1{
-    font-size: 80px;
-    padding-top: 80px;
+    font-size: 70px;
+    padding-top: 150px;
     text-align: left;
     font-weight: 700;
 }
 .column-small button{
     margin: 30px 0;
+    font-size: 16px;
 }
 .column-small i{
     display: block;
@@ -125,9 +144,11 @@ header ul li:not(:last-child){
 }
 .column-small .fa-arrow-down{
     margin-top: 110px;
+    position: relative;
+    bottom: 50px;
 }
 .p-hero{
-    font-size: 18px;
+    font-size: 14px;
 }
 /* /HERO */
 /* BUSINESS */
@@ -142,6 +163,7 @@ h2:first-child{
 }
 .business label{
     margin-right: 30px;
+    font-size: 13px;
 }
 /* /BUSINESS */
 /* PIANI TARIFFARI */
@@ -156,12 +178,16 @@ h2:first-child{
     text-align: center;
     padding: 15px 0;
     border-bottom: 1px solid lightgray;
+    font-size: small;
 }
 .tag i{
     margin-right: 5px;
 }
+ul div{
+    font-size: small;
+}
 .rates .content{
-    padding: 30px;
+    padding: 20px;
 }
 .rates .content > *:not(:last-child){
     margin-bottom: 50px;
@@ -172,8 +198,12 @@ h2:first-child{
 .header-content > *:not(:last-child){
     margin-bottom: 10px;
 }
+.content p{
+    font-size: 14px;
+}
 .content ul li{
     display: flex;
+    font-size: 13px;
 }
 .content ul li i{
     margin-right: 10px;
@@ -193,4 +223,53 @@ h2:first-child{
     width: 100%;
     padding: 10px 0;
 }
+.team{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+}
+.content-enterprise{
+    width: 65%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.content-button{
+    width: 35%;
+    text-align: center;
+    margin-top: 30px;
+}
+.team .tag{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+    font-size: small;
+}
+.content-button .btn-blue{
+    padding: 15px 40px;
+}
+.content-enterprise h3{
+    margin-top: 40px;
+}
+.content-enterprise p{
+    margin-top: 25px;
+}
+.content-enterprise .solution{
+    margin-top: 40px;
+}
+/* /PIANI TARIFFARI */
+/* PARTNER */
+.partner{
+    margin-top: 150px;
+}
+.img-partner{
+    width: 60%;
+}
+.description-partner{
+    width: 40%;
+    margin-left:50px;
+}
+.description-partner p{
+    margin: 30px 0;
+}
+/* /PARTNER */
 /* FOOTER */
