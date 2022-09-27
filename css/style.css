@@ -140,15 +140,18 @@ header ul li:not(:last-child){
 }
 .hero .column-big,.column-small{
     position: relative;
-    top: 73px;
 }
 .column-small .fa-arrow-down{
-    margin-top: 110px;
+    margin-top: 90px;
     position: relative;
     bottom: 50px;
 }
 .p-hero{
     font-size: 14px;
+}
+.hero .container-big{
+    position: relative;
+    bottom: -70px;
 }
 /* /HERO */
 /* BUSINESS */
