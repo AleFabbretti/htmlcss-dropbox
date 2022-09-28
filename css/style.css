@@ -407,7 +407,7 @@ ul div{
     font-size: 27px;
     margin-bottom: 70px;
 }
-.faq hr{
+.faq hr:not(:last-child){
     margin-bottom: 40px;
 }
 .faq p{
@@ -419,13 +419,13 @@ ul div{
     justify-content: space-between;
 }
 .faq i{
-    font-size: 13px;
+    font-size: 10px;
     position: absolute;
     top: 0px;
     left: 100px;
     margin-top: 0px;
 }
-.faq:hover{
+.faq i:hover{
     cursor: pointer;
 }
 /* /DOMANDE FREQUENTI */
