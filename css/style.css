@@ -427,6 +427,7 @@ ul div{
 }
 .faq i:hover{
     cursor: pointer;
+    transform: rotate(180deg);
 }
 /* /DOMANDE FREQUENTI */
 /* FOOTER */
@@ -473,3 +474,7 @@ footer hr{
 .language i:last-child{
     vertical-align: middle;
 }
+.footer-language button > i:hover{
+    transform: rotate(180deg);
+}
+/* /FOOTER */
