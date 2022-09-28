@@ -430,3 +430,46 @@ ul div{
 }
 /* /DOMANDE FREQUENTI */
 /* FOOTER */
+footer{
+    background-color: black;
+}
+footer .row{
+    justify-content: space-between;
+}
+footer h4, a{
+    color: white;
+}
+footer h4{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.footer-col{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+footer li:not(:last-child){
+    margin-bottom: 20px;
+}
+footer li > a{
+    font-size: 14px;
+}
+footer hr{
+    border: 1px solid white;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.footer-language{
+    display: inline-block;
+    color: gray;
+}
+.footer-language i{
+    filter: invert(100%);
+}
+.btn-footer-language{
+    background-color: black;
+    color: gray;
+    padding-left: 10px;
+}
+.language i:last-child{
+    vertical-align: middle;
+}
