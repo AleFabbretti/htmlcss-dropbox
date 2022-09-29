@@ -130,6 +130,10 @@ header ul li:not(:last-child){
 .team .content{
     display: flex;
 }
+header a:hover{
+    font-size: medium;
+    transition: 0.5s;
+}
 /* MAIN */
 
 /* HERO */
@@ -358,6 +362,12 @@ ul div{
     background-color: #a2d39b;
     box-shadow: inset 0 0 0 15px #d1e9cd;
 }
+#designit:hover{
+    box-shadow: none;
+    filter: brightness(1.15);
+    filter: contrast(1);
+    transition: 0.7s;
+}
 #arizona{
     background-color: #61082b;
 }
@@ -378,6 +388,14 @@ ul div{
 }
 #clear{
     background-color: #ffd830;
+}
+.column-square:hover{
+    filter: brightness(1.10);
+    transition: 0.6s;
+}
+.column-square img:hover{
+    transform: scale(110%);
+    transition: 0.5s;
 }
 /* /PARTNERS */
 /* PROVA GRATUITA */
@@ -492,5 +510,8 @@ footer hr{
 }
 .footer-language button > i:hover{
     transform: rotate(180deg);
+}
+footer a:hover{
+    text-decoration: underline;
 }
 /* /FOOTER */
