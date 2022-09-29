@@ -97,6 +97,15 @@ input:checked {
     padding:15px 15px;
     border: 1px solid black;
 }
+.btn-white:hover{
+    box-shadow: inset 5px 5px 5px #dedede;
+    background-color: #F7F5F2;
+    transition: 0.5s;
+}
+.btn-blue:hover{
+    background-color: #297AFE;
+    transition: 0.5s;
+}
 /* HEADER */
 header .row{
     justify-content: space-between;
@@ -431,6 +440,10 @@ ul div{
     cursor: pointer;
     transform: rotate(180deg);
 }
+.faq p:hover{
+    padding-left: 8px;
+    transition: 0.5s;
+}
 /* /DOMANDE FREQUENTI */
 /* FOOTER */
 footer{
@@ -464,6 +477,7 @@ footer hr{
 .footer-language{
     display: inline-block;
     color: gray;
+    width: 100%;
 }
 .footer-language i{
     filter: invert(100%);
